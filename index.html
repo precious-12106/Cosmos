@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore your unique star system in Echoes of the Cosmos.">
+  <title>Echoes of the Cosmos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="hero">
+    <canvas id="starfield"></canvas>
+    <div class="hero-content">
+      <h1 class="animate-in">Echoes of the Cosmos</h1>
+      <p class="animate-in">Shape the universe with your intention.</p>
+      <form id="cosmic-form" class="animate-in">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" required aria-required="true">
+        <label for="intention">Your Cosmic Intention</label>
+        <input type="text" id="intention" placeholder="e.g., Find Peace" required aria-required="true">
+        <button type="submit">Create Your Cosmos</button>
+      </form>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="scripts/starfield.js"></script>
+  <script src="scripts/home.js"></script>
+</body>
+</html>
