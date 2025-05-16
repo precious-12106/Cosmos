@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cosmos - Echoes of the Cosmos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cosmos-container">
+    <canvas id="cosmos-canvas"></canvas>
+    <div class="cosmos-ui">
+      <h2 id="system-name">Your Star System</h2>
+      <p id="system-story">A poetic tale of your cosmos...</p>
+      <div class="controls">
+        <button id="share-btn">Share Your Cosmos</button>
+        <button id="download-btn">Download Artwork</button>
+        <a href="index.html" class="btn">Create Another</a>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+  <script src="scripts/cosmos.js"></script>
+</body>
+</html>
